@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>JavaScript (BDD test)</string>
+	<key>fileTypes</key>
+	<array>
+		<string>test.js</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string>.*\bit\(.*function\s*\(.*\)\s*{\s*$</string>
+	<key>foldingStopMarker</key>
+	<string>\s*\}</string>
+	<key>keyEquivalent</key>
+	<string>^~J</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>bddtest.js</string>
+			<key>match</key>
+			<string>it\(.*\);</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.js</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.js.bdd</string>
+	<key>uuid</key>
+	<string>0000000C-6F27-11D9-90EB-000D93589AF6</string>
+</dict>
+</plist>

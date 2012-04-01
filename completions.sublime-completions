@@ -1,0 +1,91 @@
+{
+        "scope": "source.js.bdd",
+
+        "completions":
+        [       
+                {
+                        "trigger": "describe - bdd spec block",
+                        "contents": "describe('${1:component}', function () {\n\t$2\n});"
+                },
+                {
+                        "trigger": "it - bdd spec",
+                        "contents": "it('${1:should }', function () {\n\t$2\n});"
+                },
+                { 
+                        "trigger": "sheq - should ===",
+                        "contents": "should.equal($1);"
+                },
+                {
+                        "trigger": "sheqloose - should ==",
+                        "contents": "should.eql(${1:value});"
+                },
+                {
+                        "trigger": "shneq - should not equal",
+                        "contents": "should.not.equal(${1:value});"
+                },
+                {
+                        "trigger": "shexist - should exist",
+                        "contents": "should.exist(${1:variableName});"
+                },
+                {
+                        "trigger": "shnex - should not exist",
+                        "contents": "should.not.exist(${1:variableName});"
+                },
+                {
+                        "trigger": "shlen - should have a length of",
+                        "contents": "should.have.a.lengthOf(${1:value});"
+                },
+                {
+                        "trigger": "shprop - should have property",
+                        "contents": "should.have.property(${1:propName});"
+                },
+                {
+                        "trigger": "shempty - should be empty",
+                        "contents": "should.be.empty();"
+                },
+                {
+                        "trigger": "shwithin - should be within range",
+                        "contents": "should.be.within(${1:lowerNum}, ${2:upperNum});"
+                },
+                {
+                        "trigger": "shtype - should be a (typeof)",
+                        "contents": "should.be.a('${1:typeStr}');"
+                },
+                {
+                        "trigger": "shinstance - should be an instanceOf",
+                        "contents": "should.be.an.instanceOf(${1:constructor});"
+                },
+                {
+                        "trigger": "shabove - should be above",
+                        "contents": "should.be.above(${1:num});"
+                },
+                {
+                        "trigger": "shbelow - should be below",
+                        "contents": "should.be.below(${1:num});"
+                },
+                {
+                        "trigger": "shregex - should regex match",
+                        "contents": "should.match(/${1:regex}/);"
+                },
+                {
+                        "trigger": "shownprop - should have own property",
+                        "contents": "should.have.ownProperty('${1:propName}');"
+                },
+                {
+                        "trigger": "shsincl - string should include (contains)",
+                        "contents": "should.include('${1:subStr}');"
+                },
+                {
+                        "trigger": "shaincl - array should include (contains)",
+                        "contents": "should.includeEql(${1:obj});"
+                },
+                {
+                        "trigger": "shthrow - should throw",
+                        "contents": "(function () {\n\t$1\n}).should.throw($2);"
+                },
+                {
+                        "trigger": "shkey - should have exact keys",
+                        "contents": "should.have.keys(['${1:','}']);"
+                }
+        ]
+}

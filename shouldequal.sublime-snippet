@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[/*globals require:true, describe:true, it:true, should:true */
+
+var should = require('should'),
+	${1:component} = require('$2');
+
+describe('$1', function () {
+	
+	it('should ', function () {
+		$2
+	});	
+
+
+});]]></content>
+    <tabTrigger>newbdd</tabTrigger>
+    <scope>source.js.bdd</scope>
+    <description>new BDD spec file template</description>
+</snippet>
