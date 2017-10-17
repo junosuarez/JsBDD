@@ -1,6 +1,6 @@
 # JavaScript BDD package for Sublime Text 2
 
-Adds autocompletions for BDD-style testing and assertions. Based on the syntax used by [Jasmine](http://pivotal.github.com/jasmine/), [Mocha](http://visionmedia.github.com/mocha/), and [should](https://github.com/visionmedia/should.js).
+Adds autocompletions for BDD-style testing and assertions. Based on the syntax used by [Jasmine](http://pivotal.github.com/jasmine/), [Mocha](http://mochajs.org/), and [should](https://github.com/visionmedia/should.js).
 
 ### Usage
 
